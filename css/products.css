@@ -1,0 +1,46 @@
+@media screen and (max-width: 375px){
+    .container{
+        width: 100%;
+    }
+    header{
+        justify-content: space-around;
+    }
+    .link-contacts, .header-search{
+        display: none;
+    }
+    .header-buttons{
+        margin-left: 0;
+    }
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .product-filter{
+        display: none;
+    }
+    .seeds{
+        margin-bottom: 0;
+    }
+    .footer, .footer-about{
+        width: 100%;
+    }
+    .footer-about{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .cookies{
+        height: auto;
+        gap: 10px;
+    }
+    .up-button{
+        margin-bottom: 30px;
+    }
+    .grid-changer{
+        display: none;
+    }
+}
